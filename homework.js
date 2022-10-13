@@ -136,3 +136,23 @@ timmy.excerise()
 
 // console.log(timmy)
 
+
+// Chef Dinners
+
+class Dinner{
+    constructor(appetizer, entree, dessert){
+    this.Appetizer = appetizer
+    this.Entree = entree
+    this.Dessert = dessert
+    }
+}
+class Chef {
+    static createDinner(meal1, meal2, meal3){
+        console.log(new Dinner(meal1, meal2, meal3))
+        
+    }
+}
+
+Chef.createDinner('Salad', 'Chicken Alfredo', 'Cheese Cake')
+Chef.createDinner('Plaintains', 'Rice & Beans', 'Chicken')
+Chef.createDinner('Empandas', 'Jugo Da La Java', 'Tres Leches')
