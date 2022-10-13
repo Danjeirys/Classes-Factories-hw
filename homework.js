@@ -68,6 +68,71 @@ class Person {
     buyHamster (hamster) {
         this.hamster.push (hamster)
         mood+=10
-        bankAccount-= getPrice()
+        bankAccount-= hamster.getPrice()
     }
 } 
+
+
+// Person Class Story
+
+// 1.
+const timmy = new Person("Timmy")
+// 2.
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+// 3.
+timmy.eat()
+timmy.eat()
+timmy.eat()
+timmy.eat()
+timmy.eat()
+// 4.
+timmy.excerise()
+timmy.excerise()
+timmy.excerise()
+timmy.excerise()
+timmy.excerise()
+// 5. 
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+// 6.
+const gus = new Hamster("Gus")
+// 7.
+gus.Owner+="Timmy"
+// 8.
+timmy.buyHamster(gus)
+// 9.
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+timmy.ageUp()
+// 10.
+timmy.eat()
+timmy.eat()
+// 11.
+timmy.excerise()
+timmy.excerise()
+
+// console.log(timmy)
+
